@@ -1,1 +1,21 @@
 // place your custom styles here
+
+.vp-blog-hero-title {  
+    // display: inline-block;
+    color: pink;
+    font-size: 50px;
+    background-image: -webkit-linear-gradient(left, #001f3f, #303c54, #713252);
+    background-image: linear-gradient(to right, #001f3f, #303c54, #713252);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}; 
+
+.vp-blog-hero-description {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+};
+
+  
