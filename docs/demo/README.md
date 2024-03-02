@@ -1,7 +1,7 @@
 ---
-title: 主要功能与配置演示
+title: About Me
 index: false
-icon: laptop-code
+icon: /assets/icon/star.svg
 category:
   - 使用指南
 ---

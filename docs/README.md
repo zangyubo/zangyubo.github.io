@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: /assets/icon/home.svg
 title: 主页
 heroImage: icon.png
 heroText: ZangYubo's blog
@@ -9,41 +9,45 @@ heroFullScreen: true
 bgImage: bg.jpg
 tagline: ——山行非有期,弥远不能辍——
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
+  - icon: /assets/icon//project.svg
+    name: 我的项目
+    desc: 记录历史项目
     link: https://你的项目链接
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
+  - icon: /assets/icon//link.svg
+    name: 优秀作品
+    desc: 详情请见链接
     link: https://链接地址
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
+  - icon: /assets/icon//book.svg
+    name: 我的书籍
+    desc: 知识没有围栏
     link: https://你的书籍链接
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
+  - icon: /assets/icon//weChat.svg
+    name: 微信公众号
+    desc: 欢迎关注我!
     link: https://你的文章链接
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
+  - icon: /assets/icon//myFriend.svg
+    name: 我的伙伴
+    desc: 一群优秀的伙伴
     link: https://你的伙伴链接
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
+  - icon: /icon.png
+    name: 自定义 1
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+  - icon: /icon.png
+    name: 自定义 2
+    desc: 自定义详细介绍
+    link: https://你的自定义链接
+
+  - icon: /icon.png
+    name: 自定义 3
+    desc: 自定义详细介绍
+    link: https://你的自定义链接
+
+footer: 山行非有期,弥远不能辍
 ---
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
