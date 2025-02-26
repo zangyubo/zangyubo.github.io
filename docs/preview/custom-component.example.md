@@ -1,5 +1,5 @@
 ---
-title: 自定义组件
+title: Hello world
 tags:
   - 预览
   - 组件
@@ -8,3 +8,4 @@ permalink: /article/r6wabdk9/
 ---
 
 <CustomComponent />
+
