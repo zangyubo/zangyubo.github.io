@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Quick Start
-      link: /guide/start/introduction
+      link: /en/guide/start/introduction.html
     - theme: alt
       text: GitHub
       link: https://github.com/web-infra-dev/rspress
@@ -20,11 +20,11 @@ features:
   - title: Blazing fast build speed
     details: The core compilation module is based on the Rust front-end toolchain, providing a more ultimate development experience.
     icon: 🏃🏻‍♀️
-    link: /guide/start/introduction
+    link: /en/guide/start/introduction.html
   - title: Support for MDX content writing
     details: MDX is a powerful way to write content, allowing you to use React components in Markdown.
     icon: 📦
-    link: /guide/use-mdx/components
+    link: /en/guide/use-mdx/components.html
   - title: Built-in full-text search
     details: Automatically generates a full-text search index for you during construction, providing out-of-the-box full-text search capabilities.
     icon: 🎨

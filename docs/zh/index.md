@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /zh/guide/start/introduction
+      link: /guide/start/introduction.html
     - theme: alt
       text: GitHub
       link: https://github.com/web-infra-dev/rspress
@@ -20,11 +20,11 @@ features:
   - title: 极速构建
     details: 核心编译模块基于 Rust 前端工具链，提供更极致的开发体验。
     icon: 🏃🏻‍♀️
-    link: /zh/guide/start/introduction
+    link: /guide/start/introduction.html
   - title: 支持 MDX 内容编写
     details: MDX 是一种强大的内容编写方式，可以在 Markdown 中使用 React 组件。
     icon: 📦
-    link: /zh/guide/use-mdx/components
+    link: /guide/use-mdx/components.html
   - title: 内置全文搜索
     details: 构建时自动生成全文搜索索引，提供开箱即用的全文搜索能力。
     icon: 🎨
