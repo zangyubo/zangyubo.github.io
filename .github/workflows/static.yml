@@ -31,17 +31,22 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8   # 推荐使用 8 或 9，建议与项目锁文件匹配
+
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22.22.2'
-          cache: 'npm'   # 自动缓存 ~/.npm，加速 npm install
+          cache: 'pnpm'   # 自动缓存 pnpm store，大幅加速安装
 
       - name: 安装依赖
-        run: npm ci      # npm ci 更快且严格遵循 package-lock.json
+        run: pnpm install --frozen-lockfile   # 类似 npm ci，需存在 pnpm-lock.yaml
 
       - name: 构建 rspress 站点
-        run: npm run build   # 请确认 package.json 中的构建脚本名称
+        run: pnpm run build   # 请确认 package.json 中的构建脚本名称
 
       - name: 上传构建产物（静态文件）
         uses: actions/upload-pages-artifact@v3
