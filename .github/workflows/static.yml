@@ -29,7 +29,7 @@ jobs:
 
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 安装 pnpm
         uses: pnpm/action-setup@v3
@@ -37,7 +37,7 @@ jobs:
           version: "10.33.2"   # 与本地开发环境一致
 
       - name: 设置 Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '22.22.2'
           cache: 'pnpm'   # 自动缓存 pnpm store，大幅加速安装
