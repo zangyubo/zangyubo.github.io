@@ -3,10 +3,11 @@ import { defineConfig } from '@rspress/core';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  title: 'My Site',
+  title: 'Navrow',
   description: 'A multilingual Rspress documentation site.',
-  lang: 'en',
+  lang: 'zh',
   icon: '/rspress-icon.png',
+  llms: true,
   logo: {
     light: '/rspress-light-logo.png',
     dark: '/rspress-dark-logo.png',
@@ -26,12 +27,18 @@ export default defineConfig({
     },
   ],
   themeConfig: {
+    lastUpdated: true,
     socialLinks: [
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://github.com/zangyubo',
       },
     ],
+
+    llmsUI: {
+      viewOptions: ['markdownLink', 'chatgpt', 'claude'],
+      placement: 'outline',
+    },
   },
 });
