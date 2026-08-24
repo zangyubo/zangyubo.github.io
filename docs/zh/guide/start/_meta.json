@@ -8,5 +8,10 @@
     "type": "file",
     "name": "getting-started",
     "label": "快速开始"
+  },
+  {
+    "type": "file",
+    "name": "get-website/index",
+    "label": "获取个人网站"
   }
 ]
