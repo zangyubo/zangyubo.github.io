@@ -12,12 +12,24 @@
 }
 
 .site-author {
+  white-space: nowrap;
   color: var(--rp-c-text-2);
   font-family: Baskerville, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
   font-size: 15px;
   font-style: italic;
   font-weight: 600;
   letter-spacing: 0.04em;
+}
+
+.rp-doc-footer__edit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.rp-doc-footer__edit .rp-last-updated {
+  white-space: nowrap;
 }
 
 html:not(.dark) {
